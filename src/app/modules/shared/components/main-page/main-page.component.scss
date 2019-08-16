@@ -4,23 +4,20 @@
   &-sidenav {
     padding: 20px;
     border-right: 1px solid #000;
-    background: linear-gradient(to top right, #000000, #6b6b6b);
+    background-color: #7daeff38;
     .nav-link {
       text-decoration: none;
-      color: #fff;
+      color: #000;
       font-size: 24px;
       line-height: 50px;
-      font-weight: 600;
-      transition: 0.3s;
       &:hover {
-        cursor: pointer;
-        color: #999898;
-        font-size: 44px;
-        font-weight: 900;
+        text-decoration: underline;
+        color: gray;
       }
     }
   }
-  &-sidenav, .mat-drawer, .ng-tns-c6-0, .ng-trigger, .ng-trigger-transform, .mat-drawer-side {
+  &-sidenav, .mat-drawer, .ng-tns-c6-0, .ng-trigger, .ng-trigger-transform, .mat-drawer-side,
+  .ng-star-inserted {
     width: 300px;
   }
   &-btn {
@@ -72,3 +69,10 @@
     margin: 0 auto;
   }
 }
+
+
+
+
+
+
+

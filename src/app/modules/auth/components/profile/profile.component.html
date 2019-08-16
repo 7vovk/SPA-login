@@ -1,0 +1,18 @@
+<mat-card *ngFor="let user of users">
+  <mat-card-header >
+    <mat-card-title>
+      <h3>All users (will be changed to show infor for 1 user only later)</h3>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{user.email}}</p>
+    <p>{{user._id}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button
+      type="button"
+      color="success"
+      mat-raised-button>Button
+    </button>
+  </mat-card-actions>
+</mat-card>
